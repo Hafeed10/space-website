@@ -11,4 +11,4 @@ def index(request):
         'Items': Item.objects.all()  # Corrected assignment
     }
    
-    return render(request, 'endex.html', context)
+    return render(request, 'endex.html', context=context)
