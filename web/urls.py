@@ -2,9 +2,10 @@
 
 from django.urls import path
 from web.views import index
-app_name = 'web'
+
+app_name = 'space1'
 
 urlpatterns = [
     
-    path("",index ,name="web")
+    path("",index , name="web")
 ]
