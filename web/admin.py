@@ -12,5 +12,9 @@ class ColumsAdmin(admin.ModelAdmin):
     list_display = ['id', 'title', 'description', 'icon']
 
 admin.site.register(Contentitem, ContentitemAdmin)
+
+
 admin.site.register(Item, ItemAdmin)
-admin.site.register(Colum, ColumsAdmin)  # Assuming your model is named 'Column'
+
+
+admin.site.register(Colum, ColumsAdmin)  
